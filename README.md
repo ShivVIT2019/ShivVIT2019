@@ -1,51 +1,77 @@
-# Hi, I'm Atchyut 👋
+# Hi, I'm Sivasai Atchyut Akella 👋
 
-**Applied ML Engineer** building production AI systems that ship, scale, and deliver measurable impact.
+**Backend-leaning full-stack ML engineer building deployed AI systems.**
 
-MS Computer Science (AI) @ Binghamton University | Dec 2026
+MS CS (AI Concentration) @ Binghamton University — graduating August 2026.
+Actively seeking full-time and internship roles in AI/ML engineering.
 
----
-
-### 🔧 What I Build
-
-- **Multi-agent AI systems** — LangGraph orchestration with shared state and tool-use
-- **RAG pipelines** — Gemini/Claude + ChromaDB + sentence-transformers, evaluated with custom faithfulness metrics
-- **Production NLP** — DistilBERT + RNN content moderation at 88.97% accuracy, 60% cost reduction
-- **Computer Vision** — YOLOv5 + ONNX real-time inference on NVIDIA GPU servers (named inventor on Philips patent PCT/EP2025/073715)
-
-### 🚀 Featured Projects
-
-| Project | What It Does | Stack |
-|---------|-------------|-------|
-| [**FinSight AI**](https://github.com/ShivVIT2019/finsight-ai) | Multi-agent financial intelligence — two LangGraph agents collaborate for real-time stock analysis | LangGraph · Gemini · yfinance · FastAPI · Docker |
-| [**RAGFaith Benchmark**](https://github.com/ShivVIT2019/ragfaith-benchmark) | Three-dimensional faithfulness evaluation for RAG systems | sentence-transformers · ROUGE-L · scikit-learn |
-| [**Campaign Targeting System**](https://github.com/ShivVIT2019/Campaign_Targeting_System) | ML-powered targeting with RAG AI assistant — 89.32% AUC-ROC, ~30x ROI | Random Forest · Gemini · ChromaDB · FastAPI · React · GCP |
-
-### 🛠️ Tech Stack
-
-**ML/AI:** Python · PyTorch · scikit-learn · LangChain · LangGraph · HuggingFace · ONNX · YOLOv5
-
-**LLM/GenAI:** Gemini API · Claude API · ChromaDB · sentence-transformers · RAG · Prompt Engineering
-
-**Backend:** FastAPI · REST APIs · PostgreSQL · Docker · GitHub Actions CI/CD
-
-**Cloud:** GCP Cloud Run · Firebase · Vercel
-
-**Frontend:** React · JavaScript · HTML/CSS
-
-### 📊 Impact Numbers
-
-- **~30x ROI** improvement on campaign targeting
-- **88.97% accuracy** on production content moderation with 60% cost reduction
-- **Patent holder** — named inventor on Philips international patent
-- **2.5x better** correlation with human judgment vs ROUGE-L (RAGFaith benchmark)
-
-### 📫 Let's Connect
-
-- 🌐 [Portfolio](https://portfolio-nine-rho-36.vercel.app)
-- 💼 [LinkedIn](https://linkedin.com/in/atchyut)
-- 📧 sakella@binghamton.edu
+📧 sakella@binghamton.edu
+🌐 [Portfolio](https://portfolio-nine-rho-36.vercel.app)
+💼 [LinkedIn](https://linkedin.com/in/atchyut)
 
 ---
 
-*Currently looking for ML/AI Engineer internships and new grad roles. STEM OPT eligible — no employer sponsorship cost for 3 years.*
+## What I Build
+
+I build production AI systems — not just notebooks. Every project below is deployed, has a live demo, and was built to solve a real problem.
+
+**Stack:** Python · FastAPI · LangChain · LangGraph · Gemini API · Google Cloud Run · Docker · React · PostgreSQL · ChromaDB · PyTorch · scikit-learn · YOLOv5 · ONNX · DistilBERT
+
+---
+
+## Featured Projects
+
+### 🎯 [AI-Powered Campaign Targeting System](https://github.com/ShivVIT2019/campaign-targeting-system)
+End-to-end ML system for ad campaign optimization.
+- Random Forest classifier on 12,330 sessions — 89.32% AUC-ROC
+- 9 RESTful FastAPI endpoints + React KPI dashboard
+- RAG-powered AI assistant using Gemini + ChromaDB
+- Deployed on Google Cloud Run via Docker
+- **Result:** 76% ad spend reduction, ~30× ROI improvement
+- [Live Demo](#)
+
+### 💳 [CreditAI Global — AI Credit Approval System](https://github.com/ShivVIT2019/credit-ai-global)
+Dual-market credit risk platform for USA and India.
+- Trained on 2.2M Lending Club loans — 86.5% AUC-ROC
+- Autonomous AI pricing agent with multi-factor optimization
+- Gradio app with real-time inference + CI/CD on Google Cloud Run
+- **Result:** 23% increase in expected portfolio profitability
+- [Live Demo](#)
+
+### 🤖 [FinSight AI — Multi-Agent Financial Intelligence](https://github.com/ShivVIT2019/finsight-ai)
+LangGraph multi-agent system for financial analysis.
+- Research Agent + Risk Agent with shared TypedDict state
+- Gemini 2.5 Flash + FastAPI backend + Streamlit frontend
+- Deployed on Google Cloud Run
+- [Live Demo](#)
+
+---
+
+## Experience
+
+**Uplifty** — AI Product Manager Intern & Team Lead *(Aug 2025 – Feb 2026)*
+Built NLP content moderation system (DistilBERT + RNN) on Google Cloud Run — 88.97% accuracy, 60% cost reduction vs third-party APIs.
+
+**Philips Innovation Campus** — R&D Intern *(Feb 2023 – Aug 2023)*
+Named inventor on international patent PCT/EP2025/073715 — built laterality detection pipeline for obstetric ultrasound using YOLOv5, OpenCV, and ONNX on NVIDIA GPU servers.
+
+**Binghamton University** — Research Assistant *(Jun 2025 – Dec 2025)*
+
+---
+
+## Patent
+
+📄 **PCT/EP2025/073715** — "Processing Ultrasound Image Data"
+Assigned to Koninklijke Philips N.V. | Filed August 2025
+
+---
+
+## Currently Open To
+
+- Full-time ML/AI Engineer roles (August 2026 start)
+- Fall 2026 internships (remote or hybrid)
+- OPT work authorization — no sponsorship needed immediately
+
+---
+
+*"I build with AI every day."*
