@@ -2,7 +2,7 @@
 
 **Backend-leaning full-stack ML engineer building deployed AI systems.**
 
-MS CS (AI Concentration) @ Binghamton University — graduating August 2026.
+MS CS (AI Concentration) @ Binghamton University  graduating August 2026.
 Actively seeking full-time and internship roles in AI/ML engineering.
 
 📧 sakella@binghamton.edu
