@@ -49,10 +49,10 @@ LangGraph multi-agent system for financial analysis.
 
 ## Experience
 
-**Uplifty** — AI Product Manager Intern & Team Lead *(Aug 2025 – Feb 2026)*
+**Uplifty**  AI Product Manager Intern & Team Lead *(Aug 2025 – Feb 2026)*
 Built NLP content moderation system (DistilBERT + RNN) on Google Cloud Run — 88.97% accuracy, 60% cost reduction vs third-party APIs.
 
-**Philips Innovation Campus** — R&D Intern *(Feb 2023 – Aug 2023)*
+**Philips Innovation Campus**  R&D Intern *(Feb 2023 – Aug 2023)*
 Named inventor on international patent PCT/EP2025/073715 — built laterality detection pipeline for obstetric ultrasound using YOLOv5, OpenCV, and ONNX on NVIDIA GPU servers.
 
 **Binghamton University** — Research Assistant *(Jun 2025 – Dec 2025)*
