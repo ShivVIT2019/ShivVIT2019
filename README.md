@@ -13,7 +13,7 @@ Actively seeking full-time and internship roles in AI/ML engineering.
 
 ## What I Build
 
-I build production AI systems — not just notebooks. Every project below is deployed, has a live demo, and was built to solve a real problem.
+I build production AI systems  not just notebooks. Every project below is deployed, has a live demo, and was built to solve a real problem.
 
 **Stack:** Python · FastAPI · LangChain · LangGraph · Gemini API · Google Cloud Run · Docker · React · PostgreSQL · ChromaDB · PyTorch · scikit-learn · YOLOv5 · ONNX · DistilBERT
 
