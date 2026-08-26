@@ -30,7 +30,7 @@ End-to-end ML system for ad campaign optimization.
 - **Result:** 76% ad spend reduction, ~30× ROI improvement
 - [Live Demo](#)
 
-### 💳 [CreditAI Global — AI Credit Approval System](https://github.com/ShivVIT2019/credit-ai-global)
+### 💳 [CreditAI Global — AI Credit Approval System](https://github.com/ShivVIT2019/creditai-global)
 Dual-market credit risk platform for USA and India.
 - Trained on 2.2M Lending Club loans — 86.5% AUC-ROC
 - Autonomous AI pricing agent with multi-factor optimization
