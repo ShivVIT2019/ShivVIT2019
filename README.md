@@ -21,7 +21,7 @@ I build production AI systems  not just notebooks. Every project below is deploy
 
 ## Featured Projects
 
-### 🎯 [AI-Powered Campaign Targeting System](https://github.com/ShivVIT2019/campaign-targeting-system)
+### 🎯 [AI-Powered Campaign Targeting System](https://github.com/ShivVIT2019/Campaign_Targeting_System)
 End-to-end ML system for ad campaign optimization.
 - Random Forest classifier on 12,330 sessions — 89.32% AUC-ROC
 - 9 RESTful FastAPI endpoints + React KPI dashboard
