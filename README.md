@@ -68,7 +68,7 @@ Assigned to Koninklijke Philips N.V. | Filed August 2025
 
 ## Currently Open To
 
-- Full-time ML/AI Engineer roles (August 2026 start)
+- Full-time ML/AI Engineer roles (January 2027 start)
 - Fall 2026 internships (remote or hybrid)
 - OPT work authorization — no sponsorship needed immediately
 
