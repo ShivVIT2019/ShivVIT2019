@@ -15,7 +15,7 @@ Actively seeking full-time ML/AI Engineer roles (January 2027 start).
 
 I build production AI systems — not just notebooks. Each project below is on GitHub with honest, measured metrics from saved artifacts, not reconstructed numbers.
 
-**Stack:** Python · FastAPI · LangGraph · Gemini · Vertex AI · MCP · Google Cloud Run · Hugging Face Spaces · Docker · React · Streamlit · Gradio · ChromaDB · PostgreSQL · PyTorch · scikit-learn · ONNX · OpenCV · YOLOv5 · DistilBERT
+**Stack:** Python · FastAPI · LangGraph · Gemini · Vertex AI · MCP · Switch · Codex · Claude Code · Google Cloud Run · Hugging Face Spaces · Docker · React · Streamlit · Gradio · ChromaDB · PostgreSQL · PyTorch · scikit-learn · ONNX · OpenCV · YOLOv5 · DistilBERT
 
 ---
 
@@ -27,12 +27,13 @@ Dual-market credit risk platform for USA and India, live on Hugging Face Spaces.
 - Batch underwriting loop with Pydantic validation, five fraud rules, a priority-ordered policy engine, and a JSON Lines audit log
 - India path maps CIBIL + city tier into the USA feature schema and calls the same model
 - Three live Gradio tabs (scoring, pricing, batch underwriting); model artifacts shipped via Git LFS
+- Rule-based post-processing converts the model probability into a decision, a credit limit capped at $30,000, and an APR band; a pricing agent combines risk, market, and profit signals into per-applicant rate recommendations
 
 ### 🎯 [AI-Powered Campaign Targeting System](https://github.com/ShivVIT2019/Campaign_Targeting_System)
 End-to-end ML system for ad campaign optimization.
 - Random Forest on 12,330 UCI Online Shoppers sessions — **0.8932 ROC-AUC** (saved in `ml/train.ipynb`)
 - Addressed **15.47%** class imbalance via precision-recall optimization
-- FastAPI backend with **9 REST endpoints** + React KPI dashboard
+- FastAPI backend with **8 REST endpoints** + React KPI dashboard
 - RAG-powered AI assistant using **Gemini + ChromaDB + Sentence Transformers**
 - GitHub Actions CI/CD pipeline (backend tests + frontend build + Docker compose build with health check)
 
@@ -52,9 +53,6 @@ Built and deployed an NLP text-moderation system (DistilBERT, RNN, and rules eng
 **Philips Innovation Campus** — R&D Intern *(Feb 2023 – Aug 2023)*
 Named inventor on international patent application **PCT/EP2025/073715** ("Processing Ultrasound Image Data"), assigned to Koninklijke Philips N.V., filed August 2025. Architected laterality detection pipeline for obstetric ultrasound (apical / basal / subcostal classification) using YOLOv5, OpenCV, and ONNX on NVIDIA GPU servers.
 
-**Binghamton University** — Research Assistant *(Jun 2025 – Dec 2025)*
-Under Prof. Saumya Tripathi on "Exploring Global Perspectives in Social Work." Conducted 10 semi-structured interviews, analyzed qualitative data using Dedoose, contributed to literature reviews, and maintained IRB compliance via CITI Program certification.
-
 ---
 
 ## Patent
@@ -67,10 +65,10 @@ Assignee: Koninklijke Philips N.V. | Filed August 2025 | US + India national pha
 ## Hackathons
 
 **Gauntlet — Flip the Switch Hackathon by WeMakeDevs** *(Nov 2026)* · [GitHub](https://github.com/ShivVIT2019/gauntlet) · [Demo](https://youtu.be/-jGNKbCzvKI)
-Team-chat workflow on Switch where Codex, Claude Code, and OpenCode agents work on the same coding task in parallel, each in isolated Git worktrees, coordinated by an orchestrator in a Mattermost channel. Rule-based referee re-runs the merge-base test suite on every branch and disqualifies branches that change, delete, or skip tests.
+Team-chat workflow on Switch where Codex, Claude Code, and OpenCode agents work on the same coding task in parallel, each in isolated Git worktrees, coordinated by an orchestrator in a Mattermost channel. Rule-based referee re-runs the merge-base test suite on every branch and disqualifies branches that change, delete, or skip tests. In live races all three agents passed **5/5** while a test-tampering branch was caught at **3/5**; a human "ship it" is required before any pull request opens.
 
-**Tessera — Buffer Commit** *(Nov 2026)*
-Private repo, available on request.
+**Tessera — Buffer Commit Build Contest** *(Nov 2026)* · [GitHub](https://github.com/ShivVIT2019/tessera) · [Live](https://tessera-adet.vercel.app) · [Demo](https://youtu.be/G55kUkGdvuI)
+Deterministic TypeScript planning engine that schedules a batch of social posts across Buffer channels under hard constraints (quiet hours, daily caps, gaps, existing queue) and explains every placement. Next.js app on the Buffer GraphQL API (OAuth 2.0 + PKCE) with one-click Apply and Undo, verified on a live Buffer account; 24 tests, including property-based tests.
 
 ---
 
