@@ -23,7 +23,7 @@ I build production AI systems — not just notebooks. Each project below is on G
 
 ### 💳 [CreditAI Global — Credit Approval System](https://github.com/ShivVIT2019/creditai-global) · [Live Demo](https://huggingface.co/spaces/sivasaiatchyut/creditai-global)
 Dual-market credit risk platform for USA and India, live on Hugging Face Spaces.
-- Random Forest trained on **100K rows** sampled from the Lending Club 2007–2018 dataset (~2.26M rows total on Kaggle) — **0.7042 ROC-AUC** on a 20K held-out test set (saved in `ml/artifacts/model_info.joblib`)
+- Random Forest trained on **100K rows** sampled from the Lending Club 2007–2018 dataset (~2.26M rows total on Kaggle) — **0.7028 ROC-AUC** on a 20K held-out test set (saved in `ml/artifacts/model_info.joblib`)
 - Batch underwriting loop with Pydantic validation, five fraud rules, a priority-ordered policy engine, and a JSON Lines audit log
 - India path maps CIBIL + city tier into the USA feature schema and calls the same model
 - Three live Gradio tabs (scoring, pricing, batch underwriting); model artifacts shipped via Git LFS
